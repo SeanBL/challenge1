@@ -1,13 +1,17 @@
+/*This class determines the box template for all the other classes on this page.*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*This element determines the background color for the body of the webpage.*/
 body {
     background-color: #d9dcd6;
 }
 
+/*This class determines the size of the box header, the font of the title, the color, 
+  and the background color.*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +19,18 @@ body {
     color: #ffffff;
 }
 
+/*This class sets the text size and list style of the title.*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*This class sets the color of the "seo" in the title.*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/*This class sets the position, font, and text size of the text links in the header*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +39,29 @@ body {
     font-size: 20px;
 }
 
+/*This class determines the bullet point types of the list.*/
 .header nav ul {
     list-style-type: none;
 }
 
+/*This class sets the position of the text links in the header box.*/
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/*This element sets the color and look of the text links in the header box.*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*This element sets the text size of the paragraph text in the h2 section*/
 p {
     font-size: 16px;
 }
 
+/*This class determines the dimensions and position of the main image on the webpage.*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +71,7 @@ p {
     background-position: center;
 }
 
+/*This class sets the position of the images that belong to the h2 section.*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,12 +82,15 @@ p {
     margin-left: 25px;
 }
 
+/*This class determines box dimensions and position in the h2 section of the body.*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*This class determines the box dimensions and position in the h3 section of the body. 
+   The box to the right of the webpage.*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,6 +102,7 @@ p {
     background-color: #2589bd;
 }
 
+/*These classes determine the position and color of the title in the h3 section.*/
 .benefit-lead,
 .benefit-brand,
 .benefit-cost {
@@ -93,6 +110,7 @@ p {
     color: #ffffff;
 }
 
+/*These classes set the position of the paragraph text in the h3 section.*/
 .benefit-lead h3,
 .benefit-brand h3,
 .benefit-cost h3 {
@@ -100,6 +118,7 @@ p {
     text-align: center;
 }
 
+/*These classes set the dimensions and positions of the images in the h3 section.*/
 .benefit-lead img,
 .benefit-brand img,
 .benefit-cost img {
@@ -108,6 +127,8 @@ p {
     max-width: 150px;
 }
 
+/*These classes determines the font, color, position, and size of the titles in the h2 section of
+  the body.*/
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
@@ -119,12 +140,14 @@ p {
     color: #ffffff;
 }
 
+/*These classes sets the size of the images in the h2 section.*/
 .search-engine-optimization img,
 .online-reputation-management img,
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/*These classes determine the position and size of the paragraph text in the h2 section.*/
 .search-engine-optimization h2,
 .online-reputation-management h2,
 .social-media-marketing h2 {
@@ -132,6 +155,7 @@ p {
     font-size: 36px;
 }
 
+/*This class sets the size and positioning of the text in the footer section.*/
 .footer {
     padding: 30px;
     clear: both;
